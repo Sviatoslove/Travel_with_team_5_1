@@ -1,0 +1,66 @@
+
+/* ----------------------Routes Section----------------------- */
+
+.routes {
+  padding: 111px 0 110px;
+}
+.routes_title {
+  margin-bottom: 46px;
+}
+.routes_essence {
+
+}
+.routes_list {
+  cursor: pointer;
+}
+.routes_list:not(:last-child) {
+  margin-right: 28px;
+}
+.routes_list:hover .routes_list_overlay {
+  opacity: 1;
+  
+}
+.routes_list_wrap {
+  position: relative;
+}
+.routes_list_img {
+  box-shadow: 0 8px 32px;
+}
+.routes_list_overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.64);
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.more_text {
+  display: flex;
+  justify-content: center;
+}
+.routes_list_more {
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 77px;
+}
+.routes_list_about {
+  text-transform: lowercase;
+  fw900
+}
+.routes_list_title {
+  margin-bottom: 20px;
+  margin-top: 33px;
+}
+.routes_list_text {
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+.routes_list_link {
+  color: #82C83D;
+  line-height: 16px;
+  font-weight: 900;
+}

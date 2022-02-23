@@ -1,0 +1,59 @@
+
+/* -------------------------Code Section------------------------ */
+
+.code {
+  padding-bottom: 100px ;
+}
+.code_title {
+  margin-bottom: 53px;
+}
+.begin {
+  max-width: 455px;
+  width: 100%;
+}
+.begin_title {
+  margin-bottom: 31px;
+}
+.begin p {
+  font-size: 14px;
+  line-height: 1.35em;
+  letter-spacing: 0;
+}
+.begin p:not(:last-child) {
+  margin-bottom: 20px;
+}
+.ideas {
+  max-width: 393px;
+  width: 100%;
+}
+.ideas_title {
+  margin-bottom: 45px;
+}
+.ideas_list {
+  flex-wrap: wrap;
+}
+.ideas_item {
+  max-width: 119px;
+  width: 100%;
+  margin-right: 17px;
+}
+.ideas_item:nth-child(3n){
+  margin: 0;
+}
+.ideas_item:not(:nth-child(-n+3)) {
+margin-top: 22px;
+}
+.ideas_img {
+  width: 119px;
+  height: 70px;
+  border: 2px solid #82C83D;
+  outline: 1px solid #82C83D;
+  outline-offset: -8px;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ideas_list_title {
+  text-align: center;
+}

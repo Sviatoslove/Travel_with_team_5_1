@@ -1,0 +1,45 @@
+
+/* ----------------------Travels Header-------------------- */
+
+.header {
+  background: url(../img/company_at_sunset.jpg) no-repeat center top / cover;
+  color: #fff;
+  padding-top: 52px;
+  padding-bottom: 59px;
+  object-fit: cover;
+  position: relative;
+  text-align: center;
+}
+.logo {
+  margin-bottom: 158px;
+}
+.offer {
+}
+.offer_title {
+  margin-bottom: 26px;
+}
+.offer_essence {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.offer_btn {
+  background-color: #82C83D;
+  margin-bottom: 271px;
+  font-family: 'Museo Sans 900';
+}
+.arrow-down {
+  position: absolute;
+  transform: translate(-50%);
+  display: flex;
+  left: 50%;
+  bottom: 60px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
