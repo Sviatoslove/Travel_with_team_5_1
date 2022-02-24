@@ -18,7 +18,6 @@
 }
 .routes_list:hover .routes_list_overlay {
   opacity: 1;
-  
 }
 .routes_list_wrap {
   position: relative;
@@ -33,7 +32,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 99%;
   transition: all 0.5s ease;
   opacity: 0;
 }
@@ -49,7 +48,7 @@
 }
 .routes_list_about {
   text-transform: lowercase;
-  fw900
+  font-weight: 900;
 }
 .routes_list_title {
   margin-bottom: 20px;
